@@ -1,0 +1,289 @@
+html body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    font-family: 'Reenie Beanie', cursive;
+}
+
+h1 {
+    font-size: 44px;
+    color: #012E4E;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 18px;
+    text-transform: lowercase;
+    margin-bottom: 0px;
+}
+
+p {
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.nav {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+}
+
+.grad { /*to make nav bar gradient fade R to L*/
+  background: white; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, white , white, #70A4C9); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, white, white, #70A4C9); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, white, white, #70A4C9); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, white , white, #70A4C9); /* Standard syntax */
+}
+
+
+#logo {
+    padding-left: 20px;
+    vertical-align: middle;
+
+}
+
+ul {
+    text-align: right;
+    float: right;
+    vertical-align: middle;
+    padding-top: 10px;
+    padding-left: 20px;
+
+}
+
+ul a {
+    text-decoration: none;
+    color: #062F4F;
+}
+
+ul a:hover {
+    text-decoration: none;
+    color: #F69248;
+    font-size: 32px;
+    
+}
+
+li {
+    display: inline;
+    text-align: right;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 26px;
+}
+
+
+
+.website-name {
+    margin-top: 100px;
+    background-color: #D12334;
+    margin-bottom: 20px;
+    padding-right: 20px;
+}
+
+.title {
+    color: #ffffff;
+    font-size: 50px;
+
+    margin-bottom: 0px;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+.sub-title {
+    color: #ffffff;
+    padding-left: 20px;
+    margin: 0px;
+    font-size: 16px;
+    padding-bottom: 10px;
+
+}
+
+
+
+
+
+.grid {
+    margin: auto;
+    text-align: center;
+}
+
+
+.grid-row {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 150px;
+}
+
+
+.grid-item {
+    margin: 10px;
+    text-align: center;
+    width: 220px;
+    height: 220px;
+}
+
+
+.buy {
+    padding: 50px;
+    width: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.buy {
+    text-decoration: none;
+    color: transparent;
+}
+
+/*price text will pop to match homepage*/
+
+.buy:hover {
+    color: #F69248;
+    background-color: white;
+
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*grid items all css background photos*/
+
+#mets {
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-image: url('image-patch-mets.jpg');
+}
+
+#summer {
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-image: url('image-patch-summer.jpg');
+}
+
+#irish {
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-image: url('image-patch-irish.jpg');
+}
+
+#fire {
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-image: url('image-flag-fire.jpg');
+}
+
+#jerry {
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-image: url('image-flag-jerry.jpg');
+}
+
+#mountain {
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-image: url('image-flag-mountain.jpg');
+}
+
+#jerry-shirt {
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-image: url('image-shirt-jerry.jpg');
+}
+
+#mountain-shirt {
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-image: url('image-shirt-mountain.jpg');
+}
+
+#endless-shirt {
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-image: url('image-shirt-endless.jpg');
+}
+
+#flag-decal {
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-image: url('image-decal-american.jpg');
+}
+
+#anni-decal {
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-image: url('image-decal-50yr.jpg');
+}
+
+#endless-decal {
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-image: url('image-decal-endless.jpg');
+}
+
+
+
+
+.contact {
+    text-align: center;
+}
+
+.form {
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+input {
+    height: 20px;
+    width: 200px;
+}
+
+#idea {
+    width: 400px;
+    height: 100px;
+}
+
+.footer {
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+    color: white;
+}
+
+
+.footer-list {
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #70A4C9;
+    color: #012E4E;
+    margin: 0;
+    width: 100%;
+}
+
+

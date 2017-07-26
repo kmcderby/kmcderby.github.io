@@ -1,0 +1,239 @@
+html body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    font-family: 'Reenie Beanie', cursive;
+}
+
+h1 {
+    font-size: 44px;
+    color: #012E4E;
+}
+
+h3 {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 18px;
+    text-transform: lowercase;
+}
+
+p {
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.nav {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.grad { /*to make nav bar gradient fade R to L*/
+  background: white; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, white , white, #70A4C9); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, white, white, #70A4C9); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, white, white, #70A4C9); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, white , white, #70A4C9); /* Standard syntax */
+}
+
+#logo {
+    padding-left: 20px;
+    vertical-align: middle;
+
+}
+
+ul {
+    text-align: right;
+    float: right;
+    vertical-align: middle;
+    padding-top: 10px;
+    padding-left: 20px;
+
+}
+
+ul a {
+    text-decoration: none;
+    color: #062F4F;
+}
+
+ul a:hover { /*text orange on hover*/
+    text-decoration: none;
+    color: #F69248;
+    font-size: 32px;
+    
+}
+
+li {
+    display: inline;
+    text-align: right;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 26px;
+}
+
+
+
+.hero {
+    margin-top: 95px;
+    display: flex;
+    flex: auto;
+    width: 100%;
+    min-width: 100px;
+    height: 600px;
+
+}
+
+.band {
+    background-repeat: no-repeat; 
+    background-size: cover;
+    width: 100%;
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url('image-band-color.jpg');
+    
+}    
+
+.website-name {
+    margin-top: 390px;
+    background-color: #D12334;
+    margin-bottom: 90px;
+    padding-right: 20px;
+}
+
+.title {
+    color: #ffffff;
+    font-size: 50px;
+
+    margin-bottom: 0px;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+
+.sub-title {
+    color: #ffffff;
+    padding-left: 20px;
+    margin: 0px;
+    font-size: 16px;
+
+}
+
+.big-container {
+    width: 100%;
+    margin-right: 0px;
+}
+
+
+.featured {
+    display: block;
+    text-align: center;
+    margin: 50px;
+}
+
+
+
+.container {
+    margin: 0px;
+    margin-bottom: 100px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.mini {
+    display: inline-block;
+    margin: 50px;
+    height: 300px;
+    width: 300px;
+    text-align: left;
+    vertical-align: middle;
+
+}
+
+
+
+.patch {
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-image: url('image_patch_50yr.png');
+}
+
+.flag {
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-image: url('flag-endless-summer.jpg');
+}
+
+.shirt {
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-image: url('image-shirt-jerry.jpg');
+}
+
+.decal {
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-image: url('image-decal-co.jpg');
+}
+
+.buy {
+    padding: 50px;
+    width: auto;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.container a {
+    text-decoration: none;
+    color: transparent;
+}
+
+/*on hover make text pop */
+
+.buy:hover {
+    color: #F69248;
+    font-size: 40px;
+    background-color: white;
+}
+
+.why {
+    display: block;
+    text-align: center;
+    margin: 50px;
+    margin-bottom: 150px;
+}
+
+.contact {
+    display: block;
+    text-align: center;
+    margin: 50px;
+    margin-bottom: 150px;
+}
+
+
+.footer {
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+    color: white;
+}
+
+
+.footer-list {
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #70A4C9;
+    color: #012E4E;
+    margin: 0;
+    width: 100%;
+}
